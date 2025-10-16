@@ -1,16 +1,3 @@
-"""
-M3L110: Computers and Computing
-Project 1 – Binary Addition Turing Machine
-Author: Ian Popescu
-Date: October 2025
-
-Description:
-This program implements a single-tape, single-head Turing Machine that performs
-binary addition of two numbers written on the tape in little-endian form (least
-significant bit on the right). The two numbers are separated by '+'.
-Example:  0101+101  represents 1010 + 101 in standard binary.
-"""
-
 class TuringMachine:
     def __init__(self, tape, blank='+', start_state='q0', halt_state='qhalt'):
         # Tape represented as a list of characters with some blank padding
